@@ -288,7 +288,10 @@ aside {
   margin: 0;
   text-align: center;
 }
-
+features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
 
 /* REVIEWS */
 .reviews{
@@ -325,15 +328,16 @@ aside {
   margin: 0;
 }
 
-.map-container{
+.map figure{
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 125%;
   height: 0;
   overflow: hidden;
+  width: 100%;
 
 }
 
-.map-container iframe{
+.map iframe{
   position: absolute;
   top: 0;
   left: 0;
